@@ -22,6 +22,7 @@ The project was developed as part of an academic exercise focused on practicing 
 **Controls**
 
   **1.** Mouse Controls:
+  
       * Rotate model: Drag the mouse (Virtual Trackball)
 
       * Zoom in/out: Mouse wheel scroll
@@ -29,6 +30,7 @@ The project was developed as part of an academic exercise focused on practicing 
       * Resize window: Automatically adjusts the aspect ratio without distortion
 
   **2.** Keyboard Controls:
+  
       * w - Move camera forward (zoom in)
 
       * s - Move camera backward (zoom out)
