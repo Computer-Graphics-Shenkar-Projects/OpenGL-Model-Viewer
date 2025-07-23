@@ -1,5 +1,5 @@
 # OpenGL Car Model & Viewer
-**Overview**
+## Overview
 
 This project is a basic OpenGL application designed to model and render a 3D car. It supports interactive viewing, lighting and wireframe toggles. The car model is built using OpenGL primitives and transformations, and serves as a base for future exercises or extensions.
 
