@@ -74,12 +74,7 @@ def reshape(w, h):
     glViewport(0, 0, w, h)
     glMatrixMode(GL_PROJECTION)
     glLoadIdentity()
-
-    #guy change hte prespective to zoom in and out
     gluPerspective(60.0, w / h, 0.1, 100.0)
-
-   # gluPerspective(60.0, w / h, 0.5, 500.0)  # Adjust near and far planes for better depth handling gUY Change
-
     glMatrixMode(GL_MODELVIEW)
     glLoadIdentity()
 
@@ -281,7 +276,6 @@ def draw_roof():
     glVertex3f(top_w, height, depth)
 
     glEnd()
-
     glPopAttrib()
     glPopMatrix()
 
@@ -318,7 +312,6 @@ def draw_light(x, y, z):
     glPopAttrib()
     glPopMatrix()
 
-# Draw small spheres at light source positions. 
 def draw_light_spheres():
     if not show_light_spheres:
         return  # Skip drawing spheres if toggled off
