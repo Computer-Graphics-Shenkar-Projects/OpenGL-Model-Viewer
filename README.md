@@ -1,10 +1,12 @@
 # OpenGL Car Model & Viewer
 **Overview**
+
 This project is a basic OpenGL application designed to model and render a 3D car. It supports interactive viewing, lighting and wireframe toggles. The car model is built using OpenGL primitives and transformations, and serves as a base for future exercises or extensions.
 
 The project was developed as part of an academic exercise focused on practicing OpenGL techniques such as modeling, transformations, lighting and interactive camera controls using a virtual trackball system.
 
 **Features**
+
 * 3D car model with chassis, doors, windows, tires, and front lights
 
 * Interactive viewing with mouse rotation and zoom
@@ -54,6 +56,7 @@ The project was developed as part of an academic exercise focused on practicing 
 These controls allow for full 3D navigation, visual debugging, and display mode switching while exploring the car model.
 
 **Modeling**
+
 The car model is constructed using OpenGL primitives, including:
 
 * Filled polygons for chassis and windows
@@ -65,9 +68,11 @@ The car model is constructed using OpenGL primitives, including:
 Symmetry is achieved using scaling and translation, avoiding redundant modeling. For example, a single tire or headlight is modeled and rendered multiple times using mirrored transformations.
 
 **Lighting**
+
 The scene includes at least two positional light sources. Lighting demonstrates both diffuse and specular effects using proper normals and material settings. Spheres at light positions serve as visual markers (toggled with the 'l' key), emitting light independently of other lighting effects.
 
 **Viewing System**
+
 The interactive camera is based on a Virtual Trackball implementation:
 
 * Projects 2D mouse movements onto a sphere
@@ -79,6 +84,7 @@ The interactive camera is based on a Virtual Trackball implementation:
 Zooming is implemented via camera translation along the z-axis in a perspective projection setup.
 
 **Technical Details**
+
 * Back-face culling is always enabled for better rendering performance and realism
 
 * GL_NORMALIZE is enabled to maintain correct lighting under scaling
