@@ -5,7 +5,7 @@ This project is a basic OpenGL application designed to model and render a 3D car
 
 The project was developed as part of an academic exercise focused on practicing OpenGL techniques such as modeling, transformations, lighting and interactive camera controls using a virtual trackball system.
 
-**Features**
+### Features
 
 * 3D car model with chassis, doors, windows, tires, and front lights
 
