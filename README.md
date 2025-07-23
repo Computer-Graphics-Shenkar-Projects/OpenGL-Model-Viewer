@@ -20,14 +20,15 @@ The project was developed as part of an academic exercise focused on practicing 
 * Perspective projection with lighting and material effects
 
 **Controls**
-  **1.** Mouse Controls
+
+  **1.** Mouse Controls:
       * Rotate model: Drag the mouse (Virtual Trackball)
 
       * Zoom in/out: Mouse wheel scroll
 
       * Resize window: Automatically adjusts the aspect ratio without distortion
 
-  **2.** Keyboard Controls
+  **2.** Keyboard Controls:
       * w - Move camera forward (zoom in)
 
       * s - Move camera backward (zoom out)
